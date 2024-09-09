@@ -40,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" style={{ width: 'auto', height: '100px' }}/>
+          <img src={logo} className="img-fluid logo" alt="brand" style={{ width: '200px', height: '200px' }}/>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -96,10 +96,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/certificate"
+                to="/certificates"
                 onClick={() => updateExpanded(false)}
               >
-                <FaAward style={{ marginBottom: "2px" }} /> Certificates
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certificates
               </Nav.Link>
             </Nav.Item>
 
