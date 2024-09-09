@@ -31,7 +31,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Machine Learning
                 </b>
               </i>
               <br />
@@ -95,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://www.instagram.com/v.oletcv"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

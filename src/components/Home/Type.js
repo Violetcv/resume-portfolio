@@ -9,8 +9,9 @@ function Type() {
           "MERN Stack Developer",
           "Artificial Intelligence",
           "Machine Learning",
+          "Data Analytics",
           "Blockchain",
-          "Open Source Contributor"
+          // "Open Source Contributor"
 
         ],
         autoStart: true,

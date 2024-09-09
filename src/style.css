@@ -1,17 +1,15 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904)
+      #a87676, #ca8787
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863)
+      #A87676, #FFD0D0
     );
   
-    --imp-text-color: #c770f0;
+    --imp-text-color: #561C24;
   }
   
   .purple {
@@ -76,7 +74,7 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #1b1a2ea9 !important;
+    background-color: #e1acac8f !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
@@ -281,17 +279,17 @@ html {
   }
   
   .main-name {
-    color: #cd5ff8;
+    color: #561C24;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #be6adf !important;
+    color: #561C24 !important;
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #b562d6 !important;
+    color: #561C24 !important;
   }
   
   @media (max-width: 767px) {
@@ -371,7 +369,7 @@ html {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #68187a;
+    background: #561C24;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -379,13 +377,13 @@ html {
   
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #801f95;
+    box-shadow: 0 0 15px #C7B7A3;
   }
   
   .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: #C7B7A3;
+    box-shadow: 0 0 5px #C7B7A3;
+    text-shadow: 0 0 2px #C7B7A3;
   }
   
   .social-icons {
@@ -395,14 +393,14 @@ html {
   }
   
   .icon-colour {
-    color: #700c86 !important;
+    color: #561C24 !important;
   }
   
   /* --------- */
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: #561C24;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -560,7 +558,7 @@ html {
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px #561C24 !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
