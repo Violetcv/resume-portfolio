@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import innerve from "../../Assets/Projects/innerve.png"
+import leanin from "../../Assets/Projects/leanin mentor.jpg"
+import wine from "../../Assets/Projects/wine.jpeg"
+import art from "../../Assets/Projects/Art.png"
+import heart from "../../Assets/Projects/heart.jpg"
+import digit from "../../Assets/Projects/digit.png"
+import credit from "../../Assets/Projects/credit.jpg"
 
 function Projects() {
   return (
@@ -23,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={innerve}
               isBlog={false}
               title="INNERVE 2023"
               description="The INNERVE 2023 Website serves as the online hub for the annual tech fest of the Indira Gandhi Delhi Technical University for Women (IGDTUW). This website is designed to provide visitors with comprehensive information about the event, including various aspects such as events, gallery, sponsors, timeline, INNERVE HACKS, team details, and more."
@@ -34,7 +35,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={wine}
               isBlog={false}
               title="RED WINE QUALITY
               Exploratory Data Analysis"
@@ -46,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={leanin}
               isBlog={false}
               title="Web Development Mentorship"
               description="teaching students"
@@ -57,7 +58,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={art}
               isBlog={false}
               title="ArtVerse"
               description="met museum artwork"
@@ -68,18 +69,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="EventLock"
-              description="token gated system"
-              ghLink="https://github.com/Violetcv/token-system"
-              demoLink="https://token-system-six.vercel.app/signin"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
+              imgPath={heart}
               isBlog={false}
               title="Heart Disease Prediction"
               description="I completed a machine learning project on heart disease prediction using the UCI Heart Disease dataset. Explored data, selected relevant features, and experimented with classifiers like K Neighbors, Random Forest, and Decision Tree. Achieved mean accuracies of approximately 85%, 82%, and 73% respectively. Continuing to fine-tune models for optimization"
@@ -90,7 +80,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={digit}
               isBlog={false}
               title="Handwritten Character Recognition"
               description="Completed a project on handwritten digit recognition using Logistic Regression with an accuracy of approximately 97.7%. Explored the MNIST dataset, trained a classifier to identify the digit '2', and shared the project on GitHub for further exploration"
@@ -101,7 +91,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={credit}
               isBlog={false}
               title="Credit Scoring using Logistic Regression"
               description="Developed a credit scoring model using Logistic Regression, achieving an accuracy of 83.3%. Explored and cleaned a dataset with 30 variables and 3000 observations, and shared the project on GitHub for further analysis."
