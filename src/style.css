@@ -1,14 +1,14 @@
 html {
-  --imp-text-color: #C093A9; /* using puce.DEFAULT from the palette */
+  --imp-text-color: #561C24; /* using puce.DEFAULT from the palette */
   --section-background-color: linear-gradient(
     to bottom left,
-    #C093A9, /* puce */
+    #A9A1CC, /* puce */
     #D38F7A  /* coralPink */
   );
   --image-gradient: linear-gradient(
     to bottom left,
     #A9A1CC, /* wisteria */
-    #F2BBAE  /* melon */
+    #D38F7A  /* melon */
   );
 }
 
@@ -74,7 +74,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #e1acac8f !important;
+  background-color: #dcb6b68f !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -426,7 +426,7 @@ button:focus {
   padding: 0 !important;
 }
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #380963 !important;
 }
 
 /* --------- */
@@ -530,7 +530,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(19, 3, 27, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -547,7 +547,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(59, 26, 81, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
