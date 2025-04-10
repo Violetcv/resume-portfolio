@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/me.jpg";
+import homeLogo from "../../Assets/me.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
+import bny from "../../Assets/bny.png";
 
 function Home() {
   return (
@@ -25,6 +25,18 @@ function Home() {
                 <strong className="main-name"> CHHAVI VERMA</strong>
               </h1>
 
+              <h1 className="heading-name">
+                Data Science Intern
+                
+                  <strong className="main-name"> @  </strong>
+                  <img
+                   src={bny}
+                   style={{
+                    maxHeight: "20px"
+                   }}/>
+                
+              </h1>
+
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
@@ -36,8 +48,8 @@ function Home() {
                 alt="home pic"
                 className="img-fluid"
                 style={{
-                  maxHeight: "450px",
-                  borderRadius: "15px", // Adjust the radius as needed
+                  maxHeight: "440px",
+                  borderRadius: "30px", // Adjust the radius as needed
                   boxShadow: "0 4px 8px #6D2932",
                 }}
               />
